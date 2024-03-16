@@ -1,0 +1,222 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: rgba(128, 125, 125, 0.384);
+}
+.Header_Area
+{
+    height: 150px;
+    background-color: rgb(10,90,58);
+    display: flex;
+    justify-content: space-between;
+}
+.Logo_Container 
+{
+    display: flex;
+    flex-direction: row  ;
+}
+.Logo
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.logo:hover
+{
+    cursor: pointer;
+}
+.User_Info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family:sans-serif;
+}
+.Buttons_Area
+{
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px;
+    gap: 5px;
+}
+.Buttons_Area>button
+{
+    width: 75px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20%;
+    border: none;
+    border-style:ridge;
+    user-select: none;
+
+}
+.Buttons_Area>button:hover
+{
+    background-color: rgb(184, 235, 83);
+    cursor: pointer;
+}
+.Buttons_Area>button:active
+{
+    color:rgb(184, 235, 83) ;
+}
+.Midle_Container
+{
+    font-size: 50;
+    width: 400px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    color: rgb(129, 128, 128);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    cursor:pointer  ;
+}
+.Midle_Container:hover
+{
+    background-color: rgb(10, 90, 58);
+    color: black;
+}
+.Page_Area
+{
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-style: double;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-color: yellowgreen;
+}
+.Column_Writing
+{
+    height: 1000px;
+    display: flex;
+    margin: top 0;;
+    gap: 30px;
+}
+.Author
+{
+    height: 1000px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-style:dotted;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    align-items: center;
+    border-color: yellowgreen;
+}
+.Column_Writing>img
+{
+    height: 400px;
+    width: 400px;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+.Column_Writing>span
+{
+    margin-top: 20px;
+}
+.Author_İmg
+{
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    user-select: none;
+}
+.Author_Info
+{
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+    align-items: center;
+    user-select: none;
+}
+.Other_Author
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Other_Author>img
+{
+    height: 75px;
+    border-radius: 50%;
+    width: 75px;
+    cursor: pointer;
+    user-select: none;
+}
+.Other_Author>span
+{
+    user-select: none;
+}
+p
+{   
+    font-size: 25px;
+    font-style: italic;
+}
+.boss
+{
+    display: flex;
+    flex-direction: column;    
+}
+.Ending
+{
+    display: flex;
+    justify-content: space-between;
+}
+.Message_Area
+{
+    display: flex;
+    margin-left: 20px;
+}
+.Message_Area>img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+.Message_Area>button
+{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+.Message_Area>button:hover
+{
+    background-color:  rgb(50, 50, 50);
+}
+.Message_Area>button:active
+{
+    transform: translateY(5px);
+}
+.a
+{
+    display: flex;
+    flex-direction:column ;
+}
+.b
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
